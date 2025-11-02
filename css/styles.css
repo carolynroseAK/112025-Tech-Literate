@@ -52,7 +52,7 @@ nav li a {
     margin: 10px 0;
     height: 40px;
     line-height: 40px;
-    font-size: 2.5em;
+    font-size: 1.0em;
     font-weight: bold;
     text-decoration: none;
     color:rgb(247, 247, 250);
@@ -78,7 +78,7 @@ section {
 }
 
 .column {
-    margin: 10px;
+    margin: 10px 0;
     padding: 10px;
     border-bottom: 4px solid #8E236D;
 }
@@ -90,6 +90,7 @@ section {
 footer {
     padding: 40px 0;
     text-align: center;
+    margin-top: 10px;
 }
 
 /* Tablet Styles */
@@ -116,6 +117,10 @@ footer {
 
     .col {
         width: 50%;
+    }
+
+    .col_text {
+        margin-top: 40px;
     }
 
     .column img {
